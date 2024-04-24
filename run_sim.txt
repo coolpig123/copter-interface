@@ -1,0 +1,11 @@
+installation guide : https://www.youtube.com/watch?v=AG4B1OFMWtc
+pymavlink examples : https://www.ardusub.com/developers/pymavlink.html#armdisarm-the-vehicle
+
+steps :
+1. enter ubuntu
+2. enter the following command : "cd ardupilot/ArduCopter"
+3. enter the following command (first time) : "sim_vehicle.py -w"
+4. enter the following command (regular) : "sim_vehicle.py"
+
+* to get the ip in order to connect : type in the simulation command line : "output"
+* to distribute connection from mavproxy to this program type : "mavproxy.exe --master={original connection} --out {connection for program}"
